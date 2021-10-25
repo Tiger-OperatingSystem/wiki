@@ -12,9 +12,11 @@ Em ambos os canais, temos uma versão única do sistema, para 64 bits, não ofer
 
 Temos aqui o botão de Download que, como diz o nome, lhe permitirá baixar a ISO oficial do sistema.
 
+https://bit.ly/3gyoP47
 
 Essa é a tela do gDrive:
 Clique agora no botão azul parta confirmar o download.
+
 
 
 Agora faremos a gravação de um live-pendrive para procedermos com a instalação. Para isso precisaremos de 1 pendrive de 4gb ou mais, preferencialmente, que não tenha nenhum arquivo ou que tenha sido feito backup.
