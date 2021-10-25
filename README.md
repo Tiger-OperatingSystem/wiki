@@ -12,7 +12,7 @@ Em ambos os canais, temos uma versão única do sistema, para 64 bits, não ofer
 
 Temos aqui o botão de Download que, como diz o nome, lhe permitirá baixar a ISO oficial do sistema.
 
-https://bit.ly/3gyoP47
+<a href="https://bit.ly/3gyoP47">https://mestresemlinux.com.br/wp/wp-content/uploads/2021/05/g146-300x78.png</a>
 
 Essa é a tela do gDrive:
 Clique agora no botão azul parta confirmar o download.
