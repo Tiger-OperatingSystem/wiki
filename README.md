@@ -1,58 +1,69 @@
 # Guia de instalação do Tiger0S
 
-O TigerOS é disponibilizado ao público na forma de uma imagem ISO, que deve ser gravada em um Pendrive ou ainda, DVD. Essa imagem ISO funciona de 2 formas: Live e Instalação.
+O TigerOS é disponibilizado ao público na forma de uma [imagem ISO](https://pt.wikipedia.org/wiki/Imagem_ISO), que deve ser gravada em um Pendrive ou ainda, DVD. Essa imagem ISO funciona de 2 formas: Live e Instalação.
 
-Modo Live significa que você pode rodar todo o TigerOS de uma das 2 mídias de maneira funcional e sem precisar instalar, podendo testar se todo hardware de sua máquina está funcionando.
+## Modo Live 
+
+Nesse modo você pode rodar todo o TigerOS de maneira funcional e sem precisar instalar, podendo testar se todo o hardware está funcionando.
 O modo Live também permite que se acesse um HD com Windows e se recupere arquivos.
 
-O TigerOS possui apenas uma versão, a Enterprise Desktop, baixável logo na primeira parte do site.
+## Modo Instalação
 
-Para criar um Live Pendrive, é necessário um programa específico para isso. Nesse caso, usaremos o Ventoy, mas existem outros, como Rufus.
+Nesse modo que é acionado através do modo live ciclando no ícone de instalação na área de trabalho:
 
-Esse é o site para fazer o download do Ventoy
+<!-- Adicionar imagem do modo indicando como iniciar a instalação a partir do live aqui -->
 
-https://github.com/ventoy/Ventoy/releases
+Nesse modo o Tiger OS é efetivamente instalado no computador
 
-Nesta página você verá mais informações sobre o Ventoy e no final dela, embaixo de Assets, você finalmente encontrará o arquivo para download. Basta clicar na opção para Windows e iniciar o download.
+# Processo de instalação
 
-!![download ventoy](https://raw.githubusercontent.com/Tiger-OperatingSystem/wiki/main/ventoy/01.png)
+### 1. Baixando o Tiger OS
 
-Não se preocupe se os números não forem os mesmo quando você entrar nessa página.
+No momento atual, o TigerOS possui apenas uma versão, a Enterprise Desktop, que pode ser [baixada através desse link](link pra baixar o Tiger OS)
 
-Quando concluir o processo de download, vá para a pasta na qual o arquivo foi salvo e descompacte-o
+### 2. Criando um pendrive para o modo live
 
-![pasta ventoy aberta](https://raw.githubusercontent.com/Tiger-OperatingSystem/wiki/main/ventoy/02.png)
+> Nota: Para criar um Live Pendrive, é necessário um programa específico chamado Ventoy. Nesse caso, usaremos o Ventoy, mas existem outros, como Rufus.
+> O download pode ser feito [a partir desse link](https://github.com/ventoy/Ventoy/releases/latest)
+> 
+> Basta clicar na opção para Windows e iniciar o download.
+> 
+> ![Legenda flutuante](https://raw.githubusercontent.com/Tiger-OperatingSystem/wiki/main/01.png)
+> Não se preocupe se os números não forem os mesmo quando você entrar nessa página.
+> 
+> Quando concluir o processo de download, vá para a pasta na qual o arquivo foi salvo e descompacte-o
+> 
+> ![Legenda flutuante](https://raw.githubusercontent.com/Tiger-OperatingSystem/wiki/main/02.png)
 
+#### Passo 1 - O dispositivo USB
 Caso seu pendrive já não esteja conectado a uma porta USB, faça-o agora.
+
+> **Nota:** tenha em mente que o dispositivo USB será formatado durante o processo, lembre-se de fazer backup de arquivos importantes
+
+#### Passo 2 - Iniciando o Ventoy
 
 Dentro da pasta do Ventoy para Windows, existe outra ainda com o nome e a versão do programa.  Clique em Ventoy2Disk.
 Veja que em device (1), aparece detalhes sobre meu pendrive, inclusive o tamanho dele
 
 ![Legenda flutuante](https://raw.githubusercontent.com/Tiger-OperatingSystem/wiki/main/03.PNG)
 
-Antes de clicar em Install, verifique se não existem arquivos no pendrive, pois ele será formatado, como informa a imagem:
+> Clique em Install, note que esse processo ira apagar todos os dados no dispositivo USB (pendrive)
 
 ![Legenda flutuante](https://raw.githubusercontent.com/Tiger-OperatingSystem/wiki/main/04.PNG)
-
-Se estiver tudo ok com o pendrive, então clique em Install.
 
 Terminado o processo, que deve demorar menos de 1 minuto, a seguinte mensagem aparecerá:
 
 ![Legenda flutuante](https://raw.githubusercontent.com/Tiger-OperatingSystem/wiki/main/05.PNG)
 
-Isso significa que a partir de agora, seu dispositivo agora é um live pendrive estando apto a receber o TigerOS ou o Windows.
+Isso significa que a partir de agora, seu dispositivo agora é um _**live pendrive**_ estando apto a receber o TigerOS. Você pode fechar a janela agora
 
-Depois de clicar em OK e fechar o Ventoy, vá até a pasta que salvou a ISO do TigerOS e, clicando com o botão direito, selecione copiar.
+#### Passo 3 - Adicionando o Tiger OS ao pendrive
+
+Vá até a pasta que salvou a ISO do TigerOS e, clicando com o botão direito, selecione copiar.
 
 Agora, na barra da esquerda, procure por Ventoy e cole o arquivo dentro do live pendrive.
 
 ![Processo de cópia da ISO](https://raw.githubusercontent.com/Tiger-OperatingSystem/wiki/main/07.png)
-
-
-
-
-
-
 
 
 Essa mensagem informa que o pendrive deve ser removido e qualquer tecla pressionada para prosseguir com a reinicialização.
