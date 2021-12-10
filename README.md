@@ -19,7 +19,7 @@ Nesse modo o Tiger OS é efetivamente instalado no computador
 
 ### 1. Baixando o Tiger OS
 
-No momento atual, o TigerOS possui apenas uma versão, a Enterprise Desktop, que pode ser [baixada através desse link](link pra baixar o Tiger OS)
+No momento atual, o TigerOS possui apenas uma versão, a Enterprise Desktop, que pode ser [baixada através desse link](https://bit.ly/3xAtKsB)
 
 > ![Legenda flutuante](https://raw.githubusercontent.com/Tiger-OperatingSystem/wiki/main/ventoy/000.png)
 
