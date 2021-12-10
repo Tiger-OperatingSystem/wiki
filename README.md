@@ -15,13 +15,13 @@ https://github.com/ventoy/Ventoy/releases
 
 Nesta página você verá mais informações sobre o Ventoy e no final dela, embaixo de Assets, você finalmente encontrará o arquivo para download. Basta clicar na opção para Windows e iniciar o download.
 
-![Legenda flutuante](https://raw.githubusercontent.com/Tiger-OperatingSystem/wiki/main/01.png)
+!(https://raw.githubusercontent.com/Tiger-OperatingSystem/wiki/main/ventoy/01.png)
 
 Não se preocupe se os números não forem os mesmo quando você entrar nessa página.
 
 Quando concluir o processo de download, vá para a pasta na qual o arquivo foi salvo e descompacte-o
 
-![Legenda flutuante](https://raw.githubusercontent.com/Tiger-OperatingSystem/wiki/main/02.png)
+!(https://raw.githubusercontent.com/Tiger-OperatingSystem/wiki/main/ventoy/02.png)
 
 Caso seu pendrive já não esteja conectado a uma porta USB, faça-o agora.
 
