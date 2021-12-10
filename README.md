@@ -46,7 +46,7 @@ Depois de clicar em OK e fechar o Ventoy, vá até a pasta que salvou a ISO do T
 
 Agora, na barra da esquerda, procure por Ventoy e cole o arquivo dentro do live pendrive.
 
-![Legenda flutuante](https://raw.githubusercontent.com/Tiger-OperatingSystem/wiki/main/06.PNG)
+![Processo de cópia da ISO](https://raw.githubusercontent.com/Tiger-OperatingSystem/wiki/main/07.png)
 
 
 
