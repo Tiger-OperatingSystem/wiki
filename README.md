@@ -21,7 +21,7 @@ Nesse modo o Tiger OS é efetivamente instalado no computador
 
 No momento atual, o TigerOS possui apenas uma versão, a Enterprise Desktop, que pode ser [baixada através desse link](link pra baixar o Tiger OS)
 
-> ![Legenda flutuante](https://raw.githubusercontent.com/Tiger-OperatingSystem/wiki/main/ventoy/00.png)
+> ![Legenda flutuante](https://raw.githubusercontent.com/Tiger-OperatingSystem/wiki/main/ventoy/000.png)
 
 
 ### 2. Criando um pendrive para o modo live
