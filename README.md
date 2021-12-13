@@ -158,5 +158,100 @@ De novo: se não funcionar nenhuma das duas, basta pesquisar.
 
 Nesta imagem vemos que a opção de USB já está selecionada, mas caso o USB estivesse em outra posição, seria preciso selecionar, usando as setas do teclado.
 
+> ![Legenda flutuante](https://raw.githubusercontent.com/Tiger-OperatingSystem/wiki/main/boot%2Binstall/01.png)
+
+Pronto, essa é a tela de grub do TigerOS. Como não foi detectada nenhuma placa de vídeo diferente da básica, apenas foi informado o nome e a versão do sistema, com a confirmação de que se está no modo Live.
+
+Caso você tenha uma placa de vídeo 3d mais exótica, uma segunda opção no menu pode aparecer.
+
+Agora aguarde a inicialização do TigerOS 21, no modo Live.
+
+> ![Legenda flutuante](https://raw.githubusercontent.com/Tiger-OperatingSystem/wiki/main/boot%2Binstall/02.png)
+Essa tela chama-se plymouth.
 
 
+Se a gravação do live pendrive funcionou corretamente, o TigerOS carregará e mostrará essa tela:
+
+> ![Legenda flutuante](https://raw.githubusercontent.com/Tiger-OperatingSystem/wiki/main/boot%2Binstall/03.png)
+
+Antes de mais nada, vamos verificar se a sua conexão com a internet está ok.
+
+Nesta imagem, no canto inferior direito, vemos que o TigerOS detectou e se conectou a uma rede cabeada.
+
+> ![Legenda flutuante](https://raw.githubusercontent.com/Tiger-OperatingSystem/wiki/main/boot%2Binstall/04.png)
+
+Já nesta imagem, vemos que não há conexão nenhuma. 
+
+> ![Legenda flutuante](https://raw.githubusercontent.com/Tiger-OperatingSystem/wiki/main/boot%2Binstall/05.png)
+
+Logo, se sua máquina tiver uma placa wireless, ao clicar nesse ícone, as opções de rede devem aparecer.
+
+> ![Legenda flutuante](https://raw.githubusercontent.com/Tiger-OperatingSystem/wiki/main/boot%2Binstall/06.png)
+
+Caso não apareça NADA, pode ser que a placa esteja desativada ou ainda, que precisa de um driver. Nesse caso, consulte o guia mais detalhado para resolver esse problema.
+Nessa lista vemos uma relação de todas as redes wireless que foram detectadas, além de uma pequena escala da qualidade do sinal de cada uma.
+
+Basta clicar no nome de sua rede para que apareça a opção de digitar sua senha.
+
+> ![Legenda flutuante](https://raw.githubusercontent.com/Tiger-OperatingSystem/wiki/main/boot%2Binstall/07.png)
+
+Tendo digitado corretamente a senha, além da confirmação no canto superior direito, vemos que o ícone mudou:
+
+> ![Legenda flutuante](https://raw.githubusercontent.com/Tiger-OperatingSystem/wiki/main/boot%2Binstall/08.png)
+
+Apenas em casos extremamente específicos, o TigerOS não detectará sua placa de rede cabeada, mas existem umas poucas placas wireless que são chatas para funcionar, ou mesmo não funcionarão.
+O alerta aqui é: se a placa wireless não funcionar, mas é possível usar por cabo, você deve ponderar se ainda assim vale a pena instalar o TigerOS.
+
+Agora iremos instalar o TigerOS na partição criada anteriormente.
+Caso não queira fazer dual boot, mas usar apenas o TigerOS, 99% dos passos são os mesmos.
+
+No canto superior direito, só clicar na opção Instalar o TigerOS.
+
+> ![Legenda flutuante](https://raw.githubusercontent.com/Tiger-OperatingSystem/wiki/main/boot%2Binstall/09.png)
+
+Eis que o instalar abre no idioma português, mas com uma lista de diversos outros.
+
+> ![Legenda flutuante](https://raw.githubusercontent.com/Tiger-OperatingSystem/wiki/main/boot%2Binstall/10.png)
+Clique então em continuar.
+
+Em layout do teclado, o padrão mais comum do Brasil já é pré-selecionado, mas caso sua máquina venha com teclado americano, basta dar uma pesquisada na lista do lado esquerdo.
+
+> ![Legenda flutuante](https://raw.githubusercontent.com/Tiger-OperatingSystem/wiki/main/boot%2Binstall/11.png)
+
+Por garantia, teste a acentuação nesse campo aqui, principalmente a questão da ç.
+
+> ![Legenda flutuante](https://raw.githubusercontent.com/Tiger-OperatingSystem/wiki/main/boot%2Binstall/12.png)
+Só clicar em clicar em Continuar.
+
+Em instalação de outros softwares, deixarei desmarcado aqui a opção de atualizar enquanto instala, para mostrar os alertas que o sistema faz.
+> ![Legenda flutuante](https://raw.githubusercontent.com/Tiger-OperatingSystem/wiki/main/boot%2Binstall/13.png)
+
+Mas destaco que é importante selecionar a segunda opção, para garantir que a placa de vídeo e wifi funcionem corretamente, mesmo que a internet já tenha sido testada e funcione.
+Agora só clicar em continuar.
+Parte importantíssima, pois é aqui que confirmaremos todos os detalhes para a instalação do TigerOS.
+Selecione a opção Avançada e clique em continuar.
+
+> ![Legenda flutuante](https://raw.githubusercontent.com/Tiger-OperatingSystem/wiki/main/boot%2Binstall/14.png)
+
+Selecione esse espaço livre, criado anteriormente, de 30gb, dando duplo clique nele.
+As 3 primeiras opções podem ser deixadas como estão, mas a opção Usar como, deve ser alterada de Ext4, para BTRFS.
+E em ponto de montagem, selecione essa /
+Clique em Ok para confirmar as configurações.
+Só clicar em Instalar agora
+É solicitada a confirmação da instalação, bastando clicar em continuar.
+Agora é perguntado sobre a região em que a pessoa se encontra, com relação ao fuso horário.
+
+> ![Legenda flutuante](https://raw.githubusercontent.com/Tiger-OperatingSystem/wiki/main/boot%2Binstall/15.png)
+
+Embora eu more em Curitiba, selecione a região de SP e clique em continuar.
+Então configurarei meu usuário, colocando meu nome, o nome do computador para ser localizado, caso esteja numa rede local, além do nome do meu usuário.
+
+> ![Legenda flutuante](https://raw.githubusercontent.com/Tiger-OperatingSystem/wiki/main/boot%2Binstall/16.png)
+
+Destaco o fato de não poder usar letras maiúsculas ou números no nome do usuário.
+Sugiro que escolha uma senha caprichada para cadastrar. Você não conseguirá avançar daqui sem ter escolhido uma senha, como acontece no Windows.
+Recomendo selecionar a opção de Solicitar minha senha para entrar, mesmo que não haja nenhum problema de outras pessoas também acessarem essa máquina, mesmo sem sua presença.
+
+Só clicar em continuar e aguardar o procedimento. 
+
+> ![Legenda flutuante](https://raw.githubusercontent.com/Tiger-OperatingSystem/wiki/main/boot%2Binstall/17.png)
