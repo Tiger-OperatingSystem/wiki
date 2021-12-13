@@ -155,3 +155,8 @@ Caso não funcione, e isso infelizmente pode ocorrer, é possível usar as tecla
 De novo: se não funcionar nenhuma das duas, basta pesquisar.
 
 > ![Legenda flutuante](https://raw.githubusercontent.com/Tiger-OperatingSystem/wiki/main/bios/07.png)
+
+Nesta imagem vemos que a opção de USB já está selecionada, mas caso o USB estivesse em outra posição, seria preciso selecionar, usando as setas do teclado.
+
+
+
