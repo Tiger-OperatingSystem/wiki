@@ -26,7 +26,7 @@ No momento atual, o TigerOS possui apenas uma versão, a Enterprise Desktop, que
 
 ### 2. Criando um pendrive para o modo live
 
-> Nota: Para criar um Live Pendrive, é necessário um programa específico chamado Ventoy. Nesse caso, usaremos o Ventoy, mas existem outros, como Rufus.
+> Nota: Para criar um Live Pendrive, é necessário um programa específico chamado Ventoy. Mas existem outros, como Rufus.
 > O download pode ser feito [a partir desse link](https://github.com/ventoy/Ventoy/releases/latest)
 > 
 > Basta clicar na opção para Windows e iniciar o download.
@@ -70,6 +70,15 @@ Agora, na barra da esquerda, procure por Ventoy e cole o arquivo dentro do live 
 
 ![Processo de cópia da ISO](https://raw.githubusercontent.com/Tiger-OperatingSystem/wiki/main/ventoy/07.png)
 
+Agora basta aguardar o fim da cópia do arquivo que esta parte estará pronta.
 
-Essa mensagem informa que o pendrive deve ser removido e qualquer tecla pressionada para prosseguir com a reinicialização.
+#### Passo 4 - Redimensionar HD com Windows 10 para Dual Boot
+
+Terminada a criação do Live Pendrive, caso você queira manter o Windows e adicionar o TigerOS, passa a ser necessário agora, reduzir a partição do Windows 10, para o caso de dual boot, para em seguida, configurar a BIOS de sua máquina, para que seja possível detectar o dispositivo na inicialização.
+
+No w10, clicando sobre a barra de tarefas, procure pela opção Gerenciamento de disco.
+
+
+
+
 
